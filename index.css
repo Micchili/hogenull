@@ -34,11 +34,6 @@ article.main {
   width: 100%;
 }
 
-img#topimg {
-  transform:skewX(-30deg);
-}
-
-
 div.abox {
   height: 100%;
   width: 80%;
