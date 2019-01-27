@@ -5,14 +5,8 @@
   list-style: none;
 }
 
-h1#null {
-  width: 40%;
-  height: 100%;
-}
-
 body {
   background-color: rgb(222, 222, 222);
-  height: 100%;
 }
 
 header {
@@ -23,49 +17,6 @@ header {
   text-shadow: -3px -6px rgb(89, 106, 160);
 }
 
-div#hogeColor {
-  width: 100%;
-  height: 20px;
-  background-color: limegreen
-}
-
-article.main {
-  height: 100%;
-  width: 100%;
-}
-
-div.abox {
-  height: 100%;
-  width: 80%;
-  transform:skewX(30deg);
-	border-radius: 3px;
-	color: #FFF;
-	margin: 7%;
-	text-align: center;
-  background-color: #444444;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all  0.3s ease;
-  box-shadow: -20px -20px #aaaaaa;
-}
-
-div.bbox {
-  width: 80%;
-  height: 150px;
-  margin: 6%;
-  transform:skewX(-30deg);
-	color: #FFF;
-	text-align: center;
-  background-color: #444444;
-  box-shadow: -20px 20px #aaaaaa;
-}
-
-section.goSite {
-  transform:skewX(30deg);
-  font-size:  2em;  
-}
-
 footer {
   color: #fff;
   background-color: #222;
@@ -73,4 +24,35 @@ footer {
   bottom: 0;
   width: 100%;
   height: 40px;
+}
+
+h1#topName {
+  width: 40%;
+  height: 100%;
+}
+
+article#topBox{
+  padding-top: 30px;
+  height: 300px;
+  width: 1000px;
+  margin: auto;
+}
+
+section#gouten {
+  height: 300px;
+  width: 500px;
+  float: left;
+  text-align: center;
+}
+
+section#mil {
+  height: 300px;
+  width: 500px;
+  float: right; 
+  text-align: center;
+}
+
+section#siteIndex {
+  width: 1000px;
+  height: 500px;
 }
