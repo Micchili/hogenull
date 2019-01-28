@@ -34,22 +34,24 @@ h1#topName {
 article#topBox{
   padding-top: 30px;
   height: 300px;
-  width: 1000px;
+  width: 1200px;
   margin: auto;
 }
 
 section#gouten {
   height: 300px;
-  width: 500px;
+  width: 600px;
   float: left;
   text-align: center;
+  background-color: aqua;
 }
 
 section#mil {
   height: 300px;
-  width: 500px;
+  width: 600px;
   float: right; 
   text-align: center;
+  background-color: chartreuse;
 }
 
 section#siteIndex {
