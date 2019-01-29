@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: rgb(222, 222, 222);
+  height: 100%;
+  width: 100%;
 }
 
 header {
@@ -40,21 +41,25 @@ article#topBox{
 
 section#gouten {
   height: 300px;
-  width: 600px;
+  width: 500px;
   float: left;
   text-align: center;
   background-color: aqua;
+  transform: skew(30px,-30px);
 }
 
 section#mil {
   height: 300px;
-  width: 600px;
+  width: 500px;
   float: right; 
   text-align: center;
   background-color: chartreuse;
+  transform: skew(30px,-30px);
 }
 
 section#siteIndex {
-  width: 1000px;
+  width: 100%;
   height: 500px;
+  margin: auto;
+  background-color: rgb(222, 222, 222);
 }
