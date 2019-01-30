@@ -11,10 +11,10 @@ body {
 }
 
 header {
-  height: 35px;
+  height: 55px;
   width: 100%;
   background-color: #74A9D6;
-  font-size: 2em;
+  font-size: 4em;
   text-shadow: -3px -6px rgb(89, 106, 160);
 }
 
@@ -27,7 +27,13 @@ footer {
   height: 40px;
 }
 
+img {
+  float: left;
+}
+
 h1#topName {
+  margin-left: 1%;
+  float: left;
   width: 40%;
   height: 100%;
 }
@@ -54,7 +60,7 @@ section#mil {
   float: right; 
   text-align: center;
   background-color: chartreuse;
-  transform: skewY(30deg);
+  transform: skewX(30deg);
 }
 
 section#siteIndex {
