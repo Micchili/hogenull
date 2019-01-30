@@ -29,6 +29,7 @@ footer {
 
 img#toplogo {
   float: left;
+  border: solid rgb(89, 106, 160);
 }
 
 h1#topName {
@@ -39,7 +40,7 @@ h1#topName {
 }
 
 article#topBox{
-  height: 350px;
+  height: 300px;
   width: 1200px;
   margin: auto;
   background-color: aliceblue;
@@ -49,7 +50,7 @@ article#topBox{
 
 section#gouten {
   font-size: 4em;
-  height: 350px;
+  height: 300px;
   width: 50%;
   float: left;
   text-align: left;
@@ -63,7 +64,7 @@ div#goutenContent {
 
 section#mil {
   font-size: 4em;
-  height: 350px;
+  height: 300px;
   width: 50%;
   float: right; 
   text-align: right;
