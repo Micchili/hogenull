@@ -11,11 +11,11 @@ body {
 }
 
 header {
-  height: 55px;
+  height: 106px;
   width: 100%;
-  background-color: #74A9D6;
   font-size: 4em;
   text-shadow: -3px -6px rgb(89, 106, 160);
+  border-bottom: solid rgb(89, 106, 160);
 }
 
 footer {
@@ -25,6 +25,12 @@ footer {
   bottom: 0;
   width: 100%;
   height: 40px;
+}
+
+section#logo {
+  height: 55px;
+  width: 100%;
+  background-color: #74A9D6;
 }
 
 img#toplogo {
@@ -99,28 +105,29 @@ li {
              -2px 2px 1px #000,
              2px -2px 1px #000,
              -2px -2px 1px #000;
+  border: solid #FFF;
 }
 
 li#c {
-  width: 25%;
-  height: 25%;
+  width: 24%;
+  height: 24%;
   background-color: cyan;
 }
 
 li#m {
-  width: 25%;
-  height: 25%;
+  width: 24%;
+  height: 24%;
   background-color: magenta;
 }
 
 li#y {
-  width: 25%;
-  height: 25%;
+  width: 24%;
+  height: 24%;
   background-color: yellow;
 }
 
 li#k {
-  width: 25%;
-  height: 25%;
+  width: 24%;
+  height: 24%;
   background-color: black;
 }
