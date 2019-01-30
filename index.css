@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'circleFont';
+	src: url(./font/NaishoMoji-Regular.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +13,17 @@
 body {
   height: 100%;
   width: 100%;
+  background-color: aliceblue;
 }
 
 header {
-  height: 106px;
+  margin-top: 1%;
+  height: 75px;
   width: 100%;
-  font-size: 4em;
+  font-size: 3em;
   text-shadow: -3px -6px rgb(89, 106, 160);
-  border-bottom: solid rgb(89, 106, 160);
+  font-family: 'circleFont';
+  border-bottom: solid #000;
 }
 
 footer {
@@ -27,15 +35,18 @@ footer {
   height: 40px;
 }
 
+section {
+  font-family: 'Book Antiqua';
+}
+
 section#logo {
-  height: 55px;
+  height: 50px;
   width: 100%;
-  background-color: #74A9D6;
+  /* background-color: #74A9D6; */
 }
 
 img#toplogo {
   float: left;
-  border: solid rgb(89, 106, 160);
 }
 
 h1#topName {
@@ -45,22 +56,34 @@ h1#topName {
   height: 100%;
 }
 
-article#topBox{
-  height: 300px;
-  width: 1200px;
-  margin: auto;
-  background-color: aliceblue;
-  /* position: relative; */
-  overflow: hidden;
+article#introduction {
+  height: 500px;
+  width: 100%;
+  text-align: left;
+}
+
+section#circleTitle {
+  font-size: 2em;
+  height: 700px;
+  width: 50%;
+  margin: 10% 3%;
+  
+}
+
+section#menber{
+  font-size: 2em;
+  height: 20%;
+  width: 50%;
+  margin: 5% 3%;
 }
 
 section#gouten {
-  font-size: 4em;
-  height: 300px;
+  font-size: 1.5em;
+  height: 80%;
   width: 50%;
   float: left;
   text-align: left;
-  background-color: aqua;
+  background-color: #74A9D6;
   /* transform: skewX(40deg); */
 }
 
@@ -68,13 +91,19 @@ div#goutenContent {
   /* transform: skewX(-40deg); */
 }
 
+/* div#line {
+  height: 100%;
+  width: 20px;
+  transform: skewX(30deg);
+} */
+
 section#mil {
-  font-size: 4em;
-  height: 300px;
+  font-size: 1.5em;
+  height: 80%;
   width: 50%;
   float: right; 
   text-align: right;
-  background-color: chartreuse;
+  background-color: #74A9D6;
   /* transform: skewX(40deg); */
 }
 
