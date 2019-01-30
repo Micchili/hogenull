@@ -34,27 +34,27 @@ h1#topName {
 
 article#topBox{
   padding-top: 30px;
-  height: 300px;
+  height: 400px;
   width: 1200px;
   margin: auto;
 }
 
 section#gouten {
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 600px;
   float: left;
   text-align: center;
   background-color: aqua;
-  transform: skew(30px,-30px);
+  transform: skewX(30deg);
 }
 
 section#mil {
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 600px;
   float: right; 
   text-align: center;
   background-color: chartreuse;
-  transform: skew(30px,-30px);
+  transform: skewY(30deg);
 }
 
 section#siteIndex {
