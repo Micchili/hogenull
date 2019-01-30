@@ -27,7 +27,7 @@ footer {
   height: 40px;
 }
 
-img {
+img#toplogo {
   float: left;
 }
 
@@ -39,33 +39,87 @@ h1#topName {
 }
 
 article#topBox{
-  padding-top: 30px;
-  height: 400px;
+  height: 350px;
   width: 1200px;
   margin: auto;
+  background-color: aliceblue;
+  /* position: relative; */
+  overflow: hidden;
 }
 
 section#gouten {
-  height: 400px;
-  width: 600px;
+  font-size: 4em;
+  height: 350px;
+  width: 50%;
   float: left;
-  text-align: center;
+  text-align: left;
   background-color: aqua;
-  transform: skewX(30deg);
+  /* transform: skewX(40deg); */
+}
+
+div#goutenContent {
+  /* transform: skewX(-40deg); */
 }
 
 section#mil {
-  height: 400px;
-  width: 600px;
+  font-size: 4em;
+  height: 350px;
+  width: 50%;
   float: right; 
-  text-align: center;
+  text-align: right;
   background-color: chartreuse;
-  transform: skewX(30deg);
+  /* transform: skewX(40deg); */
+}
+
+div#milContent {
+  /* transform: skewX(-40deg); */
 }
 
 section#siteIndex {
   width: 100%;
-  height: 500px;
+  height: 1000px;
   margin: auto;
   background-color: rgb(222, 222, 222);
+}
+
+ul {
+  width: 100%;
+  height: 300px;
+  display: table;
+  color: #FFF;
+}
+
+li {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 6em;
+  text-shadow: 2px 2px 1px #000,
+             -2px 2px 1px #000,
+             2px -2px 1px #000,
+             -2px -2px 1px #000;
+}
+
+li#c {
+  width: 25%;
+  height: 25%;
+  background-color: cyan;
+}
+
+li#m {
+  width: 25%;
+  height: 25%;
+  background-color: magenta;
+}
+
+li#y {
+  width: 25%;
+  height: 25%;
+  background-color: yellow;
+}
+
+li#k {
+  width: 25%;
+  height: 25%;
+  background-color: black;
 }
